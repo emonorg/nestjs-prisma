@@ -41,6 +41,6 @@ jobs:
           pnpm i
           pnpm migrate:test
       - name: Load environment variables
-        run: source config/.env.test
+        run: source .env.test
       - name: Run unit tests
         run: pnpm test:e2e
