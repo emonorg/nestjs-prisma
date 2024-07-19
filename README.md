@@ -72,7 +72,7 @@ This project is an example of a NestJS application using Prisma as the ORM and Z
 Run database migrations for the test database:
 
 ```bash
-pnpm migrate:test
+pnpm migrate:local-test
 ```
 
 Run e2e tests using Jest:
