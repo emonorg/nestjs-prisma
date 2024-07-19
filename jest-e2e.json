@@ -1,0 +1,34 @@
+{
+  "forceExit": true,
+  "verbose": true,
+  "detectOpenHandles": true,
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "src/**",
+    "!**/*.entity.ts",
+    "!**/*.dto.ts",
+    "!**/*.interface.ts"
+  ],
+  "coverageDirectory": "test/coverage",
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": "./",
+  "roots": [
+    "src",
+    "test"
+  ],
+  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec|e2e-spec))\\.(ts|tsx|js|jsx)$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleDirectories": [
+    "<rootDir>",
+    "node_modules"
+  ],
+  "setupFiles": [
+    "<rootDir>/test/setup-env.ts"
+  ]
+}
