@@ -44,5 +44,5 @@ jobs:
         run: source .env.test
       - name: Generate prisma client
         run: pnpm prisma generate
-      - name: Run unit tests
+      - name: Run e2e tests
         run: pnpm test:e2e

@@ -78,7 +78,7 @@ pnpm migrate:local-test
 Run e2e tests using Jest:
 
 ```bash
-npm run test:e2e
+npm run test:local-e2e
 ```
 
 ### Creating Migrations
