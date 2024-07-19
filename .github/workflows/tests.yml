@@ -42,5 +42,7 @@ jobs:
           pnpm migrate:test
       - name: Load environment variables
         run: source .env.test
+      - name: Generate prisma client
+        run: pnpm prisma generate
       - name: Run unit tests
         run: pnpm test:e2e
